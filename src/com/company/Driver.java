@@ -6,7 +6,7 @@ import java.util.ArrayList;
 public class Driver {
 
     public static void main(String[] args) throws Exception {
-        File file = new File("C:\\Users\\nmalla\\Documents\\FolioNumbers\\src\\com\\company\\input.txt");
+        File file = new File("C:\\Users\\nmalla\\Documents\\input.txt");
         BufferedReader br = new BufferedReader(new FileReader(file));
         String line;
 
@@ -22,7 +22,6 @@ public class Driver {
                 tempSet.add(line);
             }
         }
-
-        System.out.println(testCases.size());
+        
     }
 }
